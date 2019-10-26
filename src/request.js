@@ -2,8 +2,8 @@ import axios from "axios";
 
 //创建axios实例
 const service=axios.create({
-    baseURL:'http://39.96.169.83:8888',
-    timeout:5000
+    baseURL:'http://127.0.0.1:8888',   //api的base_url
+    timeout:5000      //请求超时时间
 })
 
 export default service
